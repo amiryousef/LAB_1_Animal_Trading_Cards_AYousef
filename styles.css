@@ -1,0 +1,70 @@
+/*
+<<Amir Yousef - LAB 1 - styles.css>>
+The CSS must apply these styles to match the design prototype:
+  1. Link your stylesheet `styles.css` to the HTML or else your CSS will not be applied.
+  2. Give the interesting facts `<div>` a CSS class of `animal-info`.
+  3. Italicize the text for the animal's interesting fact.
+  4. Bold the labels for the animal's list items (e.g. 'Habitat').
+  5. Remove dots from the animal's list items.
+  6. Add a border around the animal's name, image, and information.
+  7. Add a border around the animal's information.
+  8. Add spacing between the animal's name, image, and information (you will need to use the property [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)).
+*/
+
+h1
+{
+  font-size: 33px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+body 
+{
+  padding: 2px;				/* Add spacing between the animal's name, image, and information. */
+}
+
+img 
+{
+  width: 300px;				/* Set the image's width to 300 pixels. */
+  padding: 2px;
+}
+
+#container
+{
+  width: 300px;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid grey;	/* Added a border around the animal's name, image, and information. */
+}
+
+.animal-info   				 /* Added a CSS class of "animal-info" to the interesting facts <div> */
+{
+  padding: 4px;
+  border: 2px solid grey;  	/* Added a border around the animal's information. */ 
+}
+
+#interesting-fact   				    
+{
+  padding: 2px;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-style: italic;		/* Italicized the text for the animal's interesting fact. */ 
+}
+
+#facts
+{
+  padding: 2px;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: sans-serif;
+  list-style: none;			/* Removed the dots from the animal's list items. */
+  font-style: italic;		/* Italicized the text for the animal's interesting fact. */ 
+}
+
+span 								
+{
+  font-size: 15px;
+  font-weight: bold;		/* Bolded the labels for the animal's facts list items. */
+  font-style: normal;
+}
